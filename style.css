@@ -1,10 +1,67 @@
-body {
-  font-family: Arial, sans-serif;
-  background: #f5f5f5;
-  text-align: center;
-  padding: 50px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
+body {
+  font-family: "Arial", sans-serif;
+  background: #f7f6f2;
+  color: #1f2d2e;
+  line-height: 1.6;
+  direction: rtl;
+}
+
+header {
+  height: 70vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0.35)
+    ),
+    url("assets/img/hero/main.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 4rem;
+  letter-spacing: 4px;
+  color: #fff;
+}
+
+header p {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  color: #f0f0f0;
+}
+
+main {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 80px;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
   color: #006d77;
+}
+
+section p {
+  max-width: 700px;
+}
+
+.contact {
+  background: #ffffff;
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 }
